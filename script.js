@@ -41,14 +41,6 @@ document.getElementById("servicesTitle").innerHTML =
 
 });
 
-// Contact Form
-
-document.querySelector("form").addEventListener("submit", function(e){
-
-e.preventDefault();
-
-alert("Thank you! Your message has been received.");
-
-this.reset();
-
+document.querySelector("form").addEventListener("submit", function () {
+    alert("Your message has been sent successfully.");
 });
