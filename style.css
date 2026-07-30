@@ -726,7 +726,11 @@ footer p{
     footer{
         padding:30px 5%;
     }
-
+.logo-text{
+    display:flex;
+    flex-direction:column;
+    line-height:1.1;
+}
 }
 .logo-text h2{
     color:#ffffff;
